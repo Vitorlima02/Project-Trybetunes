@@ -1,4 +1,6 @@
 import React from 'react';
+import { Route, Switch } from 'react-router';
+import { BrowserRouter } from 'react-router-dom';
 import Login from './pages/Login';
 import Search from './pages/Search';
 import Album from './pages/Album';
@@ -11,13 +13,19 @@ class App extends React.Component {
   render() {
     return (
       <main>
-        <Login />
-        <Search />
-        <Album />
-        <Favorites />
-        <Profile />
-        <ProfileEdit />
-        <NotFound />
+        <BrowserRouter>
+          <Switch>
+            <Route path="/">
+              <Login />
+            </Route>
+            <Search />
+            <Album />
+            <Favorites />
+            <Profile />
+            <ProfileEdit />
+            <NotFound />
+          </Switch>
+        </BrowserRouter>
       </main>
     );
   }
