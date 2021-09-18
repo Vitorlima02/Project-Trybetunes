@@ -10,6 +10,7 @@ export default class Search extends Component {
     super();
 
     this.state = {
+      buttonenable: true,
       artistname: '',
       inputvalue: '',
       loading: false,
