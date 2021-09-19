@@ -35,7 +35,8 @@ export default class Album extends Component {
         <Header />
         <h2 data-testid="artist-name">{ artistName }</h2>
         <h5 data-testid="album-name">{ collectionName }</h5>
-        <MusicCard music={ artistAlbum } />
+        {artistAlbum.slice(1)
+          .map((musica) => <MusicCard music={ musica } key={ musica.trackId } />)}
       </div>
     );
   }
