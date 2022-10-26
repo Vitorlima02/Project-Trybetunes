@@ -18,12 +18,12 @@ Neste projeto tem como objetivo criar uma aplicação capaz de reproduzir músic
 
 ## Instalação do projeto localmente
 
-1. Abra o terminal e crie um diretório no local de sua preferênciautilizando o comando "mkdir":
+1. Abra o terminal e crie um diretório no local de sua preferência utilizando o comando "mkdir":
 ```
   mkdir projeto-app
 ```
 
-2. Acesse o diretório recem criado e em seguida faça o clone do projeto:
+2. Acesse o diretório recém criado e em seguida faça o clone do projeto:
 ```
   cd projeto-app
   git clone git@github.com:Vitorlima02/Project-Trybetunes.git
@@ -35,7 +35,7 @@ Neste projeto tem como objetivo criar uma aplicação capaz de reproduzir músic
   npm install
 ```
 
-4. Por último, execute o comando "npm start" dessa forma vai abrir automaticamente uma pagina no seu browser.
+4. Por último, execute o comando "npm start" dessa forma vai abrir automaticamente uma página no seu browser.
 ```
   npm start
 ```
